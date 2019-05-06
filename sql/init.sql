@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS dev;
+CREATE DATABASE IF NOT EXISTS test;
+USE dev;
+CREATE TABLE IF NOT EXISTS logs (
+    id INT AUTO_INCREMENT,
+    message TEXT,
+    server_time TIME,
+    server_date DATE,
+    log_type VARCHAR(16) NOT NULL,
+    platform VARCHAR(16) NOT NULL,
+    PRIMARY KEY (id)
+)  ENGINE=INNODB;
