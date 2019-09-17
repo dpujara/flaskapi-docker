@@ -6,7 +6,7 @@ itsdangerous==0.24
 MarkupSafe==1.0
 pytz==2018.5
 six==1.11.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 mysql-connector-python
 flask-mysql
 flask-sqlalchemy
